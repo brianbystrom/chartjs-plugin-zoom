@@ -176,10 +176,10 @@ export interface ScaleLimits {
   min?: number | 'original';
   max?: number | 'original';
   minRange?: number;
-  minDelay: number;
-  maxDelay: number;
-  minDuration: number;
-  maxDuration: number;
+  minDelay?: number;
+  maxDelay?: number;
+  minDuration?: number;
+  maxDuration?: number;
 }
 
 export interface LimitOptions {
